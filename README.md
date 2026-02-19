@@ -70,4 +70,5 @@ The dataset contains **1,000 transactions** with the following columns:
 
 ## 📁 Files in this Repository
 - `sales.csv` → Dataset  
-- `supermarket_sales_analysis.sql` → Full SQL analysis + KPIs + insights  
+- `schema_and_checks.sql` → Data validation checks (row count, nulls, duplicates, ranges)  
+- `supermarket_sales_analysis.sql` → KPI queries, business questions, and insights  
