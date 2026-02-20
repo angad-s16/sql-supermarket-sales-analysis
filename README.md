@@ -2,6 +2,7 @@
 
 ## 📌 Project Overview
 This project analyzes transactional sales data from a supermarket chain operating across multiple cities and branches.
+This analysis is based on a publicly available Kaggle dataset.
 
 **Objective:** Identify revenue drivers across locations, customer segments, and product mix, and highlight concentration risk from top products.
 
@@ -72,3 +73,12 @@ The dataset contains **1,000 transactions** with the following columns:
 - `sales.csv` → Dataset  
 - `schema_and_checks.sql` → Data validation checks (row count, nulls, duplicates, ranges)  
 - `supermarket_sales_analysis.sql` → KPI queries, business questions, and insights  
+
+## 📎 Dataset Source
+
+Dataset: Supermarket Sales  
+Source: Kaggle  
+Author: Chad Wambles  
+Link: https://www.kaggle.com/datasets/chadwambles/supermarket-sales  
+
+This dataset is publicly available and was used for educational and portfolio demonstration purposes only.
