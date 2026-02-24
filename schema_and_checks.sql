@@ -6,7 +6,7 @@ GO
 -- 1) Row count
 SELECT COUNT(*) AS total_rows FROM dbo.Sales;
 
--- 2) Null checks (core columns)
+-- 2) Null checks
 SELECT
   SUM(CASE WHEN sale_id IS NULL THEN 1 ELSE 0 END) AS null_sale_id,
   SUM(CASE WHEN branch IS NULL THEN 1 ELSE 0 END) AS null_branch,
@@ -22,7 +22,7 @@ FROM dbo.Sales
 GROUP BY sale_id
 HAVING COUNT(*) > 1;
 
--- 4) Basic ranges (catch weird values)
+-- 4) Basic ranges
 SELECT
   MIN(unit_price) AS min_unit_price,
   MAX(unit_price) AS max_unit_price,
@@ -31,3 +31,4 @@ SELECT
   MIN(total_price) AS min_total,
   MAX(total_price) AS max_total
 FROM dbo.Sales;
+
